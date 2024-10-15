@@ -48,3 +48,9 @@ export default tseslint.config({
   },
 })
 ```
+
+---
+## Packages
+
+React Scroll
+[React component for animating vertical scrolling](https://www.npmjs.com/package/react-scroll)
