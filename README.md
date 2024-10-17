@@ -54,3 +54,6 @@ export default tseslint.config({
 
 React Scroll
 [React component for animating vertical scrolling](https://www.npmjs.com/package/react-scroll)
+
+React CountUp
+[A configurable React component wrapper around CountUp.js.](https://www.npmjs.com/package/react-countup)
