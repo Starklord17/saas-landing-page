@@ -82,7 +82,7 @@ const Header = () => {
                 </li>
 
                 <li className="nav-li">
-                  <NavLink title="FAQ" to="faq-section" />
+                  <NavLink title="faq" to="faq-section" />
                   <div className="dot" />
                   <NavLink title="Download" to="download-section" />
                 </li>

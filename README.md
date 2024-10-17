@@ -57,3 +57,6 @@ React Scroll
 
 React CountUp
 [A configurable React component wrapper around CountUp.js.](https://www.npmjs.com/package/react-countup)
+
+React Slidedown
+[React component which uses CSS to animate a child from its current height to height: auto when mounting/updating/unmounting](https://www.npmjs.com/package/react-slidedown)
