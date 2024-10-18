@@ -52,11 +52,14 @@ export default tseslint.config({
 ---
 ## Packages
 
-React Scroll
-[React component for animating vertical scrolling](https://www.npmjs.com/package/react-scroll)
+[React Scroll](https://www.npmjs.com/package/react-scroll)  
 
-React CountUp
-[A configurable React component wrapper around CountUp.js.](https://www.npmjs.com/package/react-countup)
+React component for animating vertical scrolling.
 
-React Slidedown
-[React component which uses CSS to animate a child from its current height to height: auto when mounting/updating/unmounting](https://www.npmjs.com/package/react-slidedown)
+[React CountUp](https://www.npmjs.com/package/react-countup)  
+
+A configurable React component wrapper around CountUp.js.
+
+[React Slidedown](https://www.npmjs.com/package/react-slidedown)  
+
+React component which uses CSS to animate a child from its current height to height: auto when mounting/updating/unmounting.
