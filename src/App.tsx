@@ -5,6 +5,7 @@ import Pricing from './sections/Pricing.js';
 import Faq from './sections/Faq.js';
 import Testimonials from './sections/Testimonials.js';
 import Download from './sections/Download.js';
+import Footer from './sections/Footer.js';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Faq />
       <Testimonials />
       <Download />
+      <Footer />
     </main>
   )
 }
