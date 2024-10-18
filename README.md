@@ -1,65 +1,38 @@
-# React + TypeScript + Vite
+# Xora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Xora is a modern web application built with React, TypeScript, and Vite. This project leverages various libraries and tools to provide a robust development experience and a performant application.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Xora](#xora)
+  - [Table of Contents](#table-of-contents)
+  - [Tech Stack](#tech-stack)
+    - [Core Technologies](#core-technologies)
+    - [Styling](#styling)
+    - [Linting and Formatting](#linting-and-formatting)
+    - [Additional Libraries](#additional-libraries)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Core Technologies
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Vite**: A build tool that provides a fast development server and optimized builds.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Styling
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **PostCSS**: A tool for transforming CSS with JavaScript plugins.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Linting and Formatting
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **ESLint**: A tool for identifying and fixing problems in JavaScript code.
+- **TypeScript ESLint**: Integrates ESLint with TypeScript.
 
----
-## Packages
+### Additional Libraries
 
-[React Scroll](https://www.npmjs.com/package/react-scroll)  
-
-React component for animating vertical scrolling.
-
-[React CountUp](https://www.npmjs.com/package/react-countup)  
-
-A configurable React component wrapper around CountUp.js.
-
-[React Slidedown](https://www.npmjs.com/package/react-slidedown)  
-
-React component which uses CSS to animate a child from its current height to height: auto when mounting/updating/unmounting.
+- **clsx**: A utility for constructing `className` strings conditionally.
+- **react-scroll**: React component for animating vertical scrolling.
+- **react-countup**: A configurable React component wrapper around CountUp.js.
+- **react-slidedown**: React component which uses CSS to animate a child from its current height to height: auto when mounting/updating/unmounting.
